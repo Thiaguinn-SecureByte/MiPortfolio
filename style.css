@@ -36,32 +36,7 @@ body {
     z-index: 2;
 }
 
-.logo::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: .4s;
-    z-index: 3;
-}
-
 /* Navbar */
-.navbar::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 3.5s;
-    z-index: 1;
-}
 .navbar a {
     position: relative;
     font-size: 18px;
@@ -99,35 +74,11 @@ body {
     line-height: 1.2;
 }
 
-.contenido-inicio h1::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1s;
-}
-
 .contenido-inicio h3 {
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
-}
-
-.contenido-inicio h3::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.3s;
 }
 
 .contenido-inicio p {
@@ -136,37 +87,12 @@ body {
     margin: 20px 0 40px;
 }
 
-.contenido-inicio p::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.6s;
-}
-
 .contenido-inicio .btn-box {
     position: relative;
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
-}
-
-.contenido-inicio .btn-box::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1.9s;
-    z-index: 2;
 }
 
 .btn-box a {
@@ -228,19 +154,6 @@ body {
     width: 170px;
     display: flex;
     justify-content: space-between;
-}
-
-.redes-inicio::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 2.5s;
-    z-index: 2;
 }
 
 .redes-inicio a {
