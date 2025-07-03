@@ -512,13 +512,15 @@ body {
 
 /* BOTÓN VOLVER ARRIBA */
 .btn-volver-arriba {
+    text-decoration: none;
+    display: flex;
     position: fixed;
     bottom: 30px;
     right: 30px;
     background: #00abf0;
     color: #081b29;
     font-size: 28px;
-    padding: 12px 14px;
+    padding: 12px 12px;
     border-radius: 50%;
     text-decoration: none;
     box-shadow: 0 0 10px rgba(0,171,240,0.3);
